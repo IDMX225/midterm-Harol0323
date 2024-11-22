@@ -1,6 +1,33 @@
 /* Styles for Mobile Site */
 
+body{
+
+    background-color: rgb(242, 207, 0);
+    font-family:fantasy;
+    color: rgb(242, 52, 4);
+}
+
 /* Header & Hero */
+
+header h1{
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+ #hero img{
+
+    width: 5em ;
+    border: 2px solid RGB(6, 45, 226) ;
+}
+
+#hero p{
+
+    text-align: center;
+
+}
 
 /* Projects */
 
