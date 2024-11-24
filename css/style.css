@@ -2,13 +2,30 @@
 
 body{
 
-    background-color: rgb(242, 207, 0);
+    background-color:RGB(251, 251, 156);
     font-family:fantasy;
-    color: rgb(242, 52, 4);
+    color: RGB(254, 50, 130)
 }
 
 /* Header & Hero */
+header P{
 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:normal;
+
+}
+
+
+
+header {
+
+    border: 8px solid RGB(64, 205, 234);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:normal;
+
+}
 header h1{
 
     text-align: center;
@@ -20,7 +37,7 @@ header h1{
  #hero img{
 
     width: 5em ;
-    border: 2px solid RGB(6, 45, 226) ;
+    
 }
 
 #hero p{
@@ -30,6 +47,13 @@ header h1{
 }
 
 /* Projects */
+
+#projects img{
+
+    width: 250px ;
+    height: 300px;
+
+}
 
 /* Reviews */
 
