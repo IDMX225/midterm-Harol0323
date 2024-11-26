@@ -1,4 +1,4 @@
-/* Styles for Mobile Site */
+                /* Styles for Mobile Site */
 
 h1{
 
@@ -12,7 +12,7 @@ body{
     color: RGB(254, 50, 130)
 }
 
-/* Header & Hero */
+                    /* Header & Hero */
 P{
 
     font-family:Agbalumo;
@@ -52,7 +52,7 @@ header h1{
     
 }
 
-/* Projects */
+                        /* Projects */
 
 #projects{
 
@@ -69,6 +69,7 @@ header h1{
 
 #projects img{
 
+    
     width: 250px ;
     height: 300px;
 
@@ -83,7 +84,52 @@ header h1{
 }
 
 
-/* Reviews */
+                    /* Reviews */
+.review{
+
+    background-color: rgb(64, 205, 234);
+    margin: 20px ;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(10% - 40px);
+    max-width: 400px;
+
+}
+.review p {
+    font-family: Arial, sans-serif;
+    color: black;
+    line-height: 1.6; 
+    margin:0rem;
+    
+}
+.rating{
+
+    font-size: 20px;
+    color: gold; 
+    margin-bottom: 10px;
+
+}
+    
+#reviews{
+
+        background-color: RGB(255, 255, 255);
+        padding-bottom: 1em;
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 20px; 
+        background-color: RGB(255, 255, 255);
+        padding: 1em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+.review h3, .review h4, .rating, .review p {
+        text-align: center;
+        
+    }
+
 #reviews h3{
 
     font-family:Outfit;
@@ -95,12 +141,38 @@ h2 {
 }
 #reviews h2{
 
-    text-align: center;
+    text-align: center; 
+    width: 100%; 
+    margin: 0 auto; 
+    display: block; 
+   font-size:px;
+    
+}
+#reviews p{
 
+    color:black;
+}
+
+.review-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
 }
 
 
-/* Footer */
+                        /* Footer */
+footer{
+
+    text-align: center;
+    border:3px solid RGB(64, 205, 234);
+    border-radius: 7px;
+    background-color:RGB(255, 119, 39) ;
+    color: black;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: .3em;
+    
+}
 
 
 /* Media state for Desktop site */
