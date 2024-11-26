@@ -13,7 +13,7 @@ body{
 }
 
 /* Header & Hero */
-header P{
+P{
 
     font-family:Agbalumo;
     font-style:normal;
@@ -52,12 +52,6 @@ header h1{
     
 }
 
-#hero p{
-
-    text-align: center;
-
-    }
-
 /* Projects */
 
 #projects{
@@ -80,7 +74,7 @@ header h1{
 
 }
 
-h3{
+#projects h3{
 
     font-family:Outfit;
     text-align: end;
@@ -90,10 +84,21 @@ h3{
 
 
 /* Reviews */
-h2{
+#reviews h3{
+
+    font-family:Outfit;
+
+}
+h2 {
 
     font-family: Oswald;
 }
+#reviews h2{
+
+    text-align: center;
+
+}
+
 
 /* Footer */
 
